@@ -1,0 +1,17 @@
+Minimist is required to get port no and IP from command args dynamically.
+
+To start program with Forever, Command :  
+                                forever start forever.json
+List all the apps running on forever, command: 
+                                forever List
+To stop one app, command:   
+                                forever stop 0/1/2 
+                                    (or) 
+                                forever stop app1/app2/app3
+To stop all the apps running by forever, command: 
+                                forever stopall
+
+
+We can also start this app by providing IP and Port by our own.Command : 
+                                node app --ip 127.0.0.1 --port 8008
+

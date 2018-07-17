@@ -1,0 +1,50 @@
+[
+    {
+    
+      "uid": "cluster1",
+      "append": true,
+      "watch": true,
+      "script": "app.js",
+      "sourceDir": "D:\\DEVELOPEMENT\\CODES\\NODE2\\clusterAndLoadBalancing",
+      "args": ["--port", "8081", "--ip", "127.0.0.1"]
+    },
+    {
+        
+        "uid": "cluster2",
+        "append": true,
+        "watch": true,
+        "script": "app.js",
+        "sourceDir": "D:\\DEVELOPEMENT\\CODES\\NODE2\\clusterAndLoadBalancing" ,
+        "args": ["--port", "8082", "--ip", "127.0.0.1"]
+      },
+
+      {
+      
+        "uid": "cluster3",
+        "append": true,
+        "watch": true,
+        "script": "app.js",
+        "sourceDir": "D:\\DEVELOPEMENT\\CODES\\NODE2\\clusterAndLoadBalancing" ,
+        "args": ["--port", "8083", "--ip", "127.0.0.1"]
+      },
+
+      {
+        
+        "uid": "cluster4",
+        "append": true,
+        "watch": true,
+        "script": "app.js",
+        "sourceDir": "D:\\DEVELOPEMENT\\CODES\\NODE2\\clusterAndLoadBalancing" ,
+        "args": ["--port", "8084", "--ip", "127.0.0.1"]
+      },
+
+      {
+        
+        "uid": "cluster5",
+        "append": true,
+        "watch": true,
+        "script": "app.js",
+        "sourceDir": "D:\\DEVELOPEMENT\\CODES\\NODE2\\clusterAndLoadBalancing" ,
+        "args": ["--port", "8085", "--ip", "127.0.0.1"]
+      }
+  ]
